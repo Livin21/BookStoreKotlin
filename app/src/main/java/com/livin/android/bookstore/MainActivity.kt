@@ -1,10 +1,9 @@
 package com.livin.android.bookstore
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
-import android.text.Editable
-import android.text.TextWatcher
 import android.view.Menu
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
@@ -47,7 +46,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setUpRecyclerView() {
-        val booksAdapter = BooksArrayAdapter(this, null)
+        val booksAdapter = BooksArrayAdapter(this, getBooks(this))
         booksRecyclerView.layoutManager = LinearLayoutManager(this)
         booksRecyclerView.adapter = booksAdapter
     }
@@ -61,6 +60,7 @@ class MainActivity : AppCompatActivity() {
         when (item?.itemId) {
             R.id.logout -> {
                 prefs.loginStatus = false
+                startActivity(Intent(this@MainActivity, Login::class.java))
                 finish()
             }
         }

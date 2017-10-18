@@ -13,9 +13,7 @@ import com.squareup.picasso.Picasso
  * Created by Livin Mathew <livin@acoustike.com> on 18/10/17.
  */
 
-class BooksArrayAdapter(private var context: Context, books: ArrayList<Book>?): RecyclerView.Adapter<BooksArrayAdapter.ViewHolder>(){
-
-    private var books: ArrayList<Book> = books ?: getBooks(context)
+class BooksArrayAdapter(private var context: Context, private val books: ArrayList<Book>): RecyclerView.Adapter<BooksArrayAdapter.ViewHolder>(){
 
     override fun onBindViewHolder(holder: ViewHolder?, position: Int) {
         Picasso.with(context).load(books[position].cover).into(holder!!.coverImageView)
