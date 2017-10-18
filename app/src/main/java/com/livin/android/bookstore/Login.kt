@@ -1,9 +1,8 @@
 package com.livin.android.bookstore
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_login.*
 
 /*
@@ -19,6 +18,9 @@ class Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        if (prefs.loginStatus)
+            startActivity(Intent(this, MainActivity::class.java))
+
         loginButton.setOnClickListener { valuate() }
 
     }
@@ -26,6 +28,7 @@ class Login : AppCompatActivity() {
     private fun valuate() {
         if (usernameET.text.toString() == username && passwordET.text.toString() == password) {
             startActivity(Intent(this, MainActivity::class.java))
+            prefs.loginStatus = true
             shortToast("Login Success")
             finish()
         }else{

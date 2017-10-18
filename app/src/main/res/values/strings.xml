@@ -5,4 +5,8 @@
     <string name="password">Password</string>
     <string name="search">Search by title, author or year</string>
     <string name="book_cover">Book Cover</string>
+    <string name="title_place_holder">Title Here</string>
+    <string name="author_place_holder">Author Here</string>
+    <string name="year">Year</string>
+    <string name="logout">Logout</string>
 </resources>
