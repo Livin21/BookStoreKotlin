@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setUpSearch() {
         books = getBooks(this)
-        searchView.addTextChangedListener(object : TextWatcher {
+        /*searchView.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(p0: Editable?) {}
 
             override fun beforeTextChanged(key: CharSequence?, p1: Int, p2: Int, p3: Int) {}
@@ -38,7 +38,12 @@ class MainActivity : AppCompatActivity() {
             override fun onTextChanged(key: CharSequence?, p1: Int, p2: Int, p3: Int) {
                 booksRecyclerView.swapAdapter(BooksArrayAdapter(this@MainActivity, books.search(key.toString())),true)
             }
-        })
+        })*/
+        searchView.onTextChanged { searchKey ->
+            booksRecyclerView.swapAdapter(
+                    BooksArrayAdapter(this@MainActivity, books.search(searchKey)), true
+            )
+        }
     }
 
     private fun setUpRecyclerView() {
@@ -48,12 +53,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.main_menu,menu)
+        menuInflater.inflate(R.menu.main_menu, menu)
         return true
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        when(item?.itemId){
+        when (item?.itemId) {
             R.id.logout -> {
                 prefs.loginStatus = false
                 finish()

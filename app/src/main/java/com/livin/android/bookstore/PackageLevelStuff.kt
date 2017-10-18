@@ -1,6 +1,9 @@
 package com.livin.android.bookstore
 
 import android.content.Context
+import android.text.Editable
+import android.text.TextWatcher
+import android.widget.EditText
 import org.json.JSONArray
 import org.json.JSONException
 import java.io.ByteArrayOutputStream
@@ -47,4 +50,18 @@ fun getBooks(context: Context): ArrayList<Book>{
 
 val prefs: App.Prefs by lazy {
     App.prefs!!
+}
+
+fun EditText.onTextChanged(doSomeStuff: (String) -> Unit){
+    this.addTextChangedListener(object : TextWatcher {
+        override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+        }
+
+        override fun onTextChanged(key: CharSequence?, p1: Int, p2: Int, p3: Int) {
+            doSomeStuff.invoke(key.toString())
+        }
+
+        override fun afterTextChanged(editable: Editable?) {
+        }
+    })
 }
