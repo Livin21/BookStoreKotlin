@@ -3,5 +3,6 @@
     <string name="login">LogIn</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="search">Search</string>
+    <string name="search">Search by title, author or year</string>
+    <string name="book_cover">Book Cover</string>
 </resources>
