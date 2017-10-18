@@ -1,0 +1,140 @@
+[
+  {
+    "title": "Clean Code",
+    "author": "Robert Cecil Martin",
+    "thumbnail": "http://t0.gstatic.com/images?q=tbn:ANd9GcR_L9_-HqiyuvHRXtmAFE0Yfm_eG5MLNXxuKE6OfjX-nWSlk_t0",
+    "year": "2008"
+  },
+  {
+    "title": "Code Complete",
+    "author": "Steve McConnell",
+    "thumbnail": "http://t3.gstatic.com/images?q=tbn:ANd9GcQqmJifraqj-8pXddLwPTpNcFfuFrOaqMNlEyRmbKq7fwaHi88Z",
+    "year": "1993"
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andy Hunt and Dave Thomas",
+    "thumbnail": "http://t0.gstatic.com/images?q=tbn:ANd9GcT7AqHvHuzNjt1HkgnNsD3gcMUkXd2L_hJB4PGwSD7sC8T7s95z",
+    "year": "1999"
+  },
+  {
+    "title": "The Mythical Man-Month",
+    "author": "Fred Brooks",
+    "thumbnail": "http://t0.gstatic.com/images?q=tbn:ANd9GcTsD0XrI7NKQ7_Vh4eNh75ENN3gG_B_rxjRIcKWCUv2YkBPzNJH",
+    "year": "1975"
+  },
+  {
+    "title": "Introduction to Algorithms",
+    "author": "Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen",
+    "thumbnail": "http://t2.gstatic.com/images?q=tbn:ANd9GcQFGg8l7p-IthoEkXmT0JrOkh1WGbB-1hN3DGo1qBCXqWcF85zT",
+    "year": "1989"
+  },
+  {
+    "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "author": "Erich Gamma, John Vlissides, Ralph Johnson, and Richard Helm",
+    "thumbnail": "http://t1.gstatic.com/images?q=tbn:ANd9GcQXPvz_wKKzK4Ixww0SlEJ_xF9bU8bsWMEU0BJOf2W4_eJ1eYa-",
+    "year": "1994"
+  },
+  {
+    "title": "The Art of Computer Programming",
+    "author": "Donald Knuth",
+    "thumbnail": "http://t3.gstatic.com/images?q=tbn:ANd9GcTpzof-48yhJB6J-bj5ggLhU0WAtDhmUkWEX0c-ZdlxwKPNGvza",
+    "year": "1968"
+  },
+  {
+    "title": "Structure and Interpretation of Computer Programs",
+    "author": "Gerald Jay Sussman and Hal Abelson",
+    "thumbnail": "http://t0.gstatic.com/images?q=tbn:ANd9GcT0z8-4ILBWnN2YLD005iI_79uKigOtECuGtxtKXveQqY7efaEn",
+    "year": "1979"
+  },
+  {
+    "title": "Programming Pearls",
+    "author": "Jon Bentley",
+    "thumbnail": "http://t1.gstatic.com/images?q=tbn:ANd9GcQopOVXOBRG_n9xpN6MrcO97m1JVvwJMtf9ybs8dx_Sp3k_ZhNG",
+    "year": "1986"
+  },
+  {
+    "title": "Structure and Interpretation of Computer Programs",
+    "author": "Gerald Jay Sussman and Hal Abelson",
+    "thumbnail": "http://t0.gstatic.com/images?q=tbn:ANd9GcT0z8-4ILBWnN2YLD005iI_79uKigOtECuGtxtKXveQqY7efaEn",
+    "year": "1979"
+  },
+  {
+    "title": "Refactoring",
+    "author": "Kent Beck and Martin Fowler",
+    "thumbnail": "http://t1.gstatic.com/images?q=tbn:ANd9GcSz8tluFttWwsf8WK7aPafgzvdlu7zgzu224257jCjiY40fMMYq",
+    "year": "1999"
+  },
+  {
+    "title": "Head First Design Patterns",
+    "author": "Elisabeth Freeman and Kathy Sierra",
+    "thumbnail": "http://t2.gstatic.com/images?q=tbn:ANd9GcRu-Xe1Rjn33dHUHpOLxB_oUlZlXNW4CO-sYtw59u8frDi5BBgV",
+    "year": "2004"
+  },
+  {
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "thumbnail": "http://t0.gstatic.com/images?q=tbn:ANd9GcTnrKDGGcxArzkfY4lu1DC6i-LxxoFrvQXT-gdlFphd_itcelRp",
+    "year": "2008"
+  },
+  {
+    "title": "The C Programming Language",
+    "author": "Brian Kernighan and Dennis Ritchie",
+    "thumbnail": "http://t3.gstatic.com/images?q=tbn:ANd9GcTK3WbaQiO5mCmvRGtvcokJUyrd2wcpOj3WcgO8TQyecr3_TrmU",
+    "year": "1978"
+  },
+  {
+    "title": "Coders at work",
+    "author": "Peter Seibel",
+    "thumbnail": "http://t1.gstatic.com/images?q=tbn:ANd9GcQxOny5HOIDoOwbS798TPdp1lZl-H0KzlkSSBcXPk15_aV1AP69",
+    "year": "2009"
+  },
+  {
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "thumbnail": "http://t2.gstatic.com/images?q=tbn:ANd9GcSrZMS76QXSUYqx0njTxXjM3a7YjGJvvBR5rkUYXVHc8FJP4w9R",
+    "year": "2001"
+  },
+  {
+    "title": "Effective C++",
+    "author": "Scott Meyers",
+    "thumbnail": "http://t3.gstatic.com/images?q=tbn:ANd9GcQPTy8xOzCFJRHEXb7cj_DfYqg0uyj3VcfAxiGzyP5qBvBFRc65",
+    "year": "1992"
+  },
+  {
+    "title": "Thinking in Java",
+    "author": "Bruce Eckel",
+    "thumbnail": "http://t1.gstatic.com/images?q=tbn:ANd9GcR2NJlfJ0BmljA_AmCe99kHt5UzF-d5sD-JLQ6x3v77r0V8-wJW",
+    "year": "1998"
+  },
+  {
+    "title": "CLR Via C#",
+    "author": "Jeffrey Richter",
+    "thumbnail": "http://t2.gstatic.com/images?q=tbn:ANd9GcT0I-ND846yPRUU03Ig9o4fnnk16hI3UII-aAodZ_clyIyV1jae",
+    "year": "2006"
+  },
+  {
+    "title": "Hackers & Painters",
+    "author": "Paul Graham",
+    "thumbnail": "http://t0.gstatic.com/images?q=tbn:ANd9GcTh-_SKpdBYUul3CQrrs1iV6E3bxvnddOuO3Mfg9kgz5FTiYLI9",
+    "year": "2004"
+  },
+  {
+    "title": "Programming in Scala",
+    "author": "Bill Venners, Lex Spoon, and Martin Odersky",
+    "thumbnail": "http://t2.gstatic.com/images?q=tbn:ANd9GcQ3Ll14cRkMz-AHvvjaMC8L1hFj3XMmDOR0ILrlk4v3wqBEHZ-Z",
+    "year": "2008"
+  },
+  {
+    "title": "Learning Python",
+    "author": "David Ascher and Mark Lutz",
+    "thumbnail": "http://t1.gstatic.com/images?q=tbn:ANd9GcSY2c3h3wIKeR3oqOcvi1qX8BPdRqNrK3o9szUHcre1UyOtFEFP",
+    "year": "1999"
+  },
+  {
+    "title": "Test-Driven Development by Example",
+    "author": "Kent Beck",
+    "thumbnail": "http://t2.gstatic.com/images?q=tbn:ANd9GcTSvAoeV4DTvrfgq34AAQQ5Q1C_V1rC1MGIifL9ueAJiamdoAeh",
+    "year": "2000"
+  }
+]
